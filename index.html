@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <title>KIET NEWS || No Need To Check The Mails</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" href="https://www.kiet.edu/assets/frontend/img/favicon-logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,500&family=Raleway:wght@300;400;500;600;700;900&family=Roboto+Serif:ital,opsz,wght@0,8..144,700;1,8..144,700&family=Roboto+Slab:wght@600;700&family=Roboto:wght@400;500;700&family=Slabo+13px&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="p-0 m-0 border-0 bd-example">
+
+  <!-- navbar  -->
+  <div>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid m-0 p-0">
+        <a class="navbar-brand text-warning" href="#"><img src="https://www.kiet.edu/assets/frontend/img/logo.png" alt="KIET Group of Institutions" class="desktop img-fluid" id="mama"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#dailylogs" id="Genral">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#business" id="business">Tech Stuff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sports" id="sport">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#technology" id="technology">Clubs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#entertainment" id="entertainment">Extra-curricular</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="text" id="newsQuery" placeholder="Search news">
+            <button class="btn btn-outline-primary" type="button" id="searchBtn">Search</button>
+          </form> -->
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="newsQuery">
+            <button class="btn btn-outline-primary" type="submit" id="searchBtn">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+<!-- crousel -->
+  
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://icolleges.in/wp-content/uploads/2020/12/kiet-journal.jpg" class="d-block w-60" alt="KIET" class="img1">
+        <div class="image_overlay">
+          <div class="image_title">Welcome to News portal </div>
+          <p class="image_description">
+            For KIET
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.kiet.edu/kiet/assets/frontend/img/infra-1.jpg" class="d-block w-60" alt="KIET" class="img1">
+        <div class="image_overlay">
+          <div class="image_title">KIET Group of Institutions Delhi-NCR,</div>
+          <p class="image_description">
+            Ghaziabad-201206
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/Screenshot.jpg" class="d-block w-60" alt="KIET" class="img1">
+      </div>
+      </div>
+    </div>
+<<<<<<< Updated upstream
+    <button class="carousel-control-prev adj" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+      <!-- <span class="visually-hidden">Previous</span> -->
+    </button>
+    <button class="carousel-control-next adj" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+=======
+    <button class="carousel-control-prev adj" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev"  >
+      <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+      <!-- <span class="visually-hidden">Previous</span> -->
+    </button>
+    <button class="carousel-control-next adj" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next"  >
+>>>>>>> Stashed changes
+      <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+      <!-- <span class="visually-hidden">Next</span> -->
+    </button>
+
+    <!-- news  -->
+  </div>
+
+
+  <div class="news">
+    <div class="row m-0" id="newsType"></div>
+    <div class="row me-2 ms-2 " id="newsdetails"></div>
+  </div>
+  <!-- footer  -->
+
+  <div class="mt-5">
+    <div>
+      <nav class="navbar navbar-expand-lg bg-dark mt-4">
+        <div class="container-fluid">
+          <h5 class="text-white me-auto ms-auto">NEWS PORTAL FOR <span class="text-primary"><a href="dataa.html">KIET</a></span></h5>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
